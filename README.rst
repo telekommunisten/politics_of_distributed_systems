@@ -48,6 +48,18 @@ least authority: an actor is said to have least authority if it only
 posseses the minimum amount of authority to perform it's task
 
 
+Call for the abolishment of systems administrators
+``````````````````````````````````````````````````
+
+An "admin" actor in a software system has more authority than the
+other actors. This violates the principle of least authority and
+creates a deep pocket of excess authority. State actors such as the
+NSA take advantage of these systemic flaws by targetting sys admin
+(see "I hunt sysadmin" below). Once the attacker compromises the
+admin's laptop they will then be able to access all of the
+infrastructure that the sys admin was able to access. We should
+therefore strive to create software systems without an "admin" role.
+
 
 Evaluation of existing distributed system designs
 -------------------------------------------------
@@ -83,3 +95,6 @@ Bibliography
 
 #. IRTF HRPC's draft-tenoever-hrpc-research-05
    https://www.ietf.org/id/draft-tenoever-hrpc-research-05.txt
+
+#. leaked NSA document: I hunt sys admin
+   https://cryptome.org/2014/03/nsa-hunt-sysadmins.pdf
