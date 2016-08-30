@@ -26,8 +26,10 @@ We have several objectives:
 * identify software design principles which support human rights
   (privacy and article 19 right to free assembly), robust security and
   correctness.
+
 * examine how existing distributed systems do not adequately express
   our desired design principles
+
 * Software development needs sustainable economic models: An analysis
   of existing economic models supporting the development of Internet
   protocols and distributed systems; showing how our current economic
@@ -49,9 +51,9 @@ posseses the minimum amount of authority to perform it's task
 
 
 Call for the abolishment of systems administrators
-``````````````````````````````````````````````````
+''''''''''''''''''''''''''''''''''''''''''''''''''
 
-An "admin" actor in a software system has more authority than the
+An "administrator" actor in a software system has more authority than the
 other actors. This violates the principle of least authority and
 creates a deep pocket of excess authority. State actors such as the
 NSA take advantage of these systemic flaws by targetting sys admin
@@ -85,10 +87,8 @@ Bibliography
    http://www.erights.org/talks/no-sep/
 
 #. Robust Composition: Towards a Unified Approach to Access Control
-   and Concurrency Control http://www.erights.org/talks/thesis/
-
-#. IRTF Human Rights Protocol Considerations (HRPC) research group
-   https://datatracker.ietf.org/rg/hrpc/documents/
+   and Concurrency Control
+   http://www.erights.org/talks/thesis/
 
 #. IRTF HRPC's draft-doria-hrpc-report-01
    https://www.ietf.org/id/draft-doria-hrpc-report-01.txt
@@ -98,3 +98,6 @@ Bibliography
 
 #. leaked NSA document: I hunt sys admin
    https://cryptome.org/2014/03/nsa-hunt-sysadmins.pdf
+
+#. User Interaction Design for Secure Systems by Ka-Ping Yee
+   http://www.eecs.berkeley.edu/Pubs/TechRpts/2002/CSD-02-1184.pdf
