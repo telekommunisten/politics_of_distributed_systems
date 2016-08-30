@@ -96,8 +96,8 @@ Bibliography
 #. IRTF HRPC's draft-tenoever-hrpc-research-05
    https://www.ietf.org/id/draft-tenoever-hrpc-research-05.txt
 
-#. leaked NSA document: I hunt sys admin
-   https://cryptome.org/2014/03/nsa-hunt-sysadmins.pdf
+#. leaked NSA document: I Hunt Sys Admins
+   https://search.edwardsnowden.com/docs/IHuntSysAdmins2014-03-20nsadocs
 
 #. User Interaction Design for Secure Systems by Ka-Ping Yee
    http://www.eecs.berkeley.edu/Pubs/TechRpts/2002/CSD-02-1184.pdf
