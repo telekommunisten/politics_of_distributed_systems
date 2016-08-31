@@ -47,7 +47,12 @@ excess authority: an actor is said to have excess authority if it
 posseses more authority than is necessary to perform it's task
 
 least authority: an actor is said to have least authority if it only
-posseses the minimum amount of authority to perform it's task
+posseses the minimum amount of authority to perform it's task. For a
+thorough introduction to this software design principle please read
+`The Structure of Authority`_
+
+.. _`The Structure of Authority`: http://www.erights.org/talks/no-sep/secnotsep.pdf
+
 
 
 Call for the abolishment of systems administrators
@@ -61,6 +66,23 @@ NSA take advantage of these systemic flaws by targetting sys admin
 admin's laptop they will then be able to access all of the
 infrastructure that the sys admin was able to access. We should
 therefore strive to create software systems without an "admin" role.
+
+
+
+anarchism == principle of least authority
+'''''''''''''''''''''''''''''''''''''''''
+
+Noam Chomsky defines anarchism as: the extension of the idea that all
+authority must be justified.
+
+The principle of least authority is a software design principle that
+is defined as: every module must be able to access only the
+information and resources that are necessary for its legitimate
+purpose.
+
+That is, all software modules must only have authority they are
+justified to have. This is anarchism applied to software design!
+
 
 
 Evaluation of existing distributed system designs
